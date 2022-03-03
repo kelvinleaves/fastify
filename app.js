@@ -3,12 +3,6 @@
 const path = require('path')
 const AutoLoad = require('fastify-autoload')
 
-process.env.MYSQL_HOST = '122.9.72.213';
-process.env.MYSQL_PORT = '3306';
-process.env.MYSQL_DATABASE = 'camera180_miniprogram';
-process.env.MYSQL_USER = 'root';
-process.env.MYSQL_PASSWORD = 'Xzb704020';
-
 module.exports = async function (fastify, opts) {
   // Place here your custom code!
 
